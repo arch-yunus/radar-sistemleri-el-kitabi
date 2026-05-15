@@ -34,7 +34,6 @@ Aşağıdaki tablo, radar sistemlerinin kullanım amaçlarına ve teknik özelli
 | **Platform** | **Yer Konuşlu** | Hava savunma radarları, ATC. |
 | | **Gemi/Uçak Konuşlu** | Atış kontrol, arama ve kurtarma. |
 | **İşlev** | **Arama Radarı** | Geniş alan tarama, erken uyarı. |
-| | **Takip Radarı** | Yüksek hassasiyetli hedef kilitleme. |
 | **Anten Yapısı** | **Mekanik Taramalı** | Dönen anten yapıları. |
 | | **Elektronik Taramalı (AESA/PESA)** | Hızlı hüzme yönlendirme (Beamsteering). |
 
@@ -101,7 +100,7 @@ graph TD
 Radar mühendisliğinde menzil kestirimi için kullanılan temel denklemler:
 
 ### 1. Temel Radar Menzil Denklemi
-$$R_{max} = \sqrt[4]{\frac{P_t G^2 \lambda^2 \sigma}{(4\pi)^3 P_{min} L}}$$
+$$R_{max} = \sqrt[4]{\frac{P_t G^2 \lambda^2 \sigma}{(4\pi)^3 P_{min} L}$$
 
 ### 2. Doppler Kayması ve Hız İlişkisi
 $$f_d = \frac{2v_r}{\lambda} = \frac{2v_r f_c}{c}$$
@@ -170,6 +169,17 @@ Bu proje açık kaynaklı bir topluluk girişimidir. Radar mühendisliği, RF ta
 | **LPI** | Low Probability of Intercept - Düşük Yakalanma Olasılığı (Gizlilik). |
 | **Beamwidth** | Hüzme Genişliği - Anten ışıma enerjisinin odaklandığı açısal genişlik. |
 | **Noise Floor** | Gürültü Tabanı - Sistemin tespit edebileceği en düşük sinyal seviyesi sınırı. |
+
+---
+
+## 📚 Kaynakça ve Akademik Referanslar (Resources)
+
+Radar mühendisliği eğitiminde dünya çapında kabul görmüş temel kaynaklar:
+
+*   **Merrill Skolnik**, *"Introduction to Radar Systems"* - Radar mühendisliğinin "kutsal kitabı" olarak kabul edilir.
+*   **Mark A. Richards**, *"Fundamentals of Radar Signal Processing"* - Dijital sinyal işleme odaklı en kapsamlı kaynak.
+*   **George W. Stimson**, *"Introduction to Airborne Radar"* - Havacılık radarları için eşsiz görsellikte bir başvuru kaynağı.
+*   **Bassem R. Mahafza**, *"Radar Systems Analysis and Design Using MATLAB"* - Uygulamalı simülasyonlar için rehber.
 
 ---
 
