@@ -2,7 +2,11 @@
 
 Gürültülü ortamlarda hedefin varlığının tespiti ve zaman içindeki hareketinin tahmin edilmesi.
 
-## Alt Başlıklar
-1. **CFAR Algoritmaları:** CA-CFAR ve OS-CFAR.
-2. **Takip Filtreleri:** Kalman ve Alpha-Beta filtreleri.
-3. **Clutter Bastırma:** MTI ve MTD teknikleri.
+## Müfredat İçeriği
+1. **[CFAR (Sabit Hata Oranı) Teknikleri](01-cfar-teknikleri.md):** Otomatik eşik belirleme.
+2. **[Tespit İstatistikleri ve Karar Verme](02-tespit-istatistikleri.md):** ROC eğrileri ve olasılık modelleri.
+3. **[Kalman Filtresi ve Tahmin Teorisi](03-kalman-filtresi.md):** Konum ve hız tahmini.
+4. **[Çoklu Hedef Takibi ve Veri İlişkilendirme](04-coklu-hedef-takibi.md):** GNN, JPDA ve iz yönetimi.
+
+---
+*Bu bölüm istatistiksel karar verme ve takip algoritmaları odaklıdır.*
